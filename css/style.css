@@ -3,7 +3,8 @@ header {
     position: sticky;
     top: 0px;
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
+    z-index: 1; 
 }
 header img {
     width: 1886px;
@@ -27,7 +28,7 @@ header nav ul {
     text-align: center;
 }
 body {
-    background-image: url(../img/background.jpg);
+    background-image: url("../img/background.jpg");
 }
 ul li a {
     color: #735F32;
@@ -54,12 +55,12 @@ footer ul li{
 h1{
     font-family: 'Press Start 2P', cursive;
     color:white;
-    background-color: #735F32;
+    background-color: rgb(40,42,58);
 }
 h2{
     font-family: 'Press Start 2P', cursive;
     color:white;
-    background-color: #735F32;
+    background-color: rgb(40,42,58);
 }
 main ul li {
     font-family: 'Press Start 2P', cursive;
@@ -69,9 +70,10 @@ main ul li {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(9,1fr);
-    gap: 50px;
+    row-gap: 50px;
     margin-top: 40px;
-    justify-items: center;    
+    margin-bottom: 40px;
+    justify-items: center;
 }
 .cap-container img{
     height: 500px;
@@ -103,7 +105,7 @@ form legend {
     background-color:#282a3a9a;
 }
 iframe {
-    animation: ease-in animacion 2s;
+    animation: ease-in animacion 1s;
 }
 
 @keyframes animacion {
@@ -117,10 +119,47 @@ iframe {
 
 
 @media only screen and (max-width: 768px){
-
-}
+    header img {
+        width: auto;
+        height: 95px;
+    }
+    header nav {
+        padding: 0px;
+        font-size: 1rem;
+    }
+    header nav ul {
+        flex-direction: column;
+    }
+    iframe {
+        width: 700px;
+        height: 440px;
+    }
+    .article-inicio {
+        flex-direction: column;
+    }
+    article img {
+        width: 340px;
+        height: 440px;
+    }
+    .cap-container {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(18,1fr);
+    }
+    .cap-container img {
+        height: 450px;
+        width: 750px;
+    }
+    
+    
 
 @media only screen and (max-width: 576px){
-
+    iframe {
+        width: 550px;
+        height: 350px;
+    }
+    .cap-container img {
+        height: 350px;
+        width: 550px;
+    }
 }
  

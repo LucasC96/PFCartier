@@ -1,3 +1,5 @@
+/*main*/
+
 header {
     background-color: #282A3A;
     position: sticky;
@@ -66,6 +68,9 @@ main ul li {
     font-family: 'Press Start 2P', cursive;
     color:white;
 }
+
+/*CAPTURAS*/
+
 .cap-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -81,6 +86,8 @@ main ul li {
     border-radius: 10px;
 }
 
+/*INICIO*/
+
 .article-inicio{
     display: flex;
     padding:20px;
@@ -91,6 +98,9 @@ main ul li {
     font-size:2rem;
     padding: 20px;
 }
+
+/*CONTACTO*/
+
 .form-container{
     display: flex;
     margin: 30px;
@@ -104,19 +114,23 @@ main ul li {
 form legend {
     background-color:#282a3a9a;
 }
+
+/*ANIMACIONES*/
+
 iframe {
     animation: ease-in animacion 1s;
 }
 
 @keyframes animacion {
     0% {
-        transform: scale(0);
+       transform: scale(0);
     }
     100% {
         transform: scale(1);
     }
 }
 
+/*RESPONSIVE*/
 
 @media only screen and (max-width: 768px){
     header img {
@@ -149,6 +163,7 @@ iframe {
         height: 450px;
         width: 750px;
     }
+}
     
     
 
@@ -162,4 +177,3 @@ iframe {
         width: 550px;
     }
 }
- 

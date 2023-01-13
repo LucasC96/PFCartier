@@ -167,8 +167,8 @@ iframe {
         }
     }
     iframe {
-        width: 700px;
-        height: 440px;
+        height: 410px;
+        width: 660px;
     }
     .article-inicio {
         flex-direction: column;
@@ -184,8 +184,8 @@ iframe {
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(18,1fr);
         img {
-        height: 450px;
-        width: 700px;
+        height: 410px;
+        width: 660px;
        }
     }
 }
@@ -194,12 +194,12 @@ iframe {
 
 @media only screen and (max-width: 576px){
     iframe {
-        width: 550px;
-        height: 350px;
+        height: 310px;
+        width: 500px;
     }
     .cap-container img {
-        height: 350px;
-        width: 550px;
+        height: 310px;
+        width: 500px;
     }
     article img {
         left: 95px;

@@ -37,7 +37,9 @@ header {
         list-style: none;
         font-weight: bold;
         display: inline-block;
-        margin: 0px 60px;
+        margin: 0px 55px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }
 
@@ -126,14 +128,14 @@ footer{
     p{
         background-color: #282a3ae5;
         color: $marron;
-        font-size:2rem;
+        font-size:1.5rem;
         padding: 20px;
     }
 }
 
 //POR AÑO//
 .imganual{
-    @include size(500px,300px)
+    @include size(500px,300px);
 }
 
 //CONTACTO//
@@ -186,9 +188,8 @@ iframe {
         flex-direction: column;
     }
     article img {
-        @include size(340px,440px);
+        @include size(340px,468px);
         position: relative;
-        left: 196px;
         margin-bottom: 20px;
     }
     .cap-container {
@@ -197,6 +198,14 @@ iframe {
         img {
             @include size(660px,410px);
        }
+    }
+    .imganual{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article-inicio{
+        margin:0px
     }
 }
     
@@ -210,6 +219,12 @@ iframe {
         @include size(500px,310px);
     }
     article img {
-        left: 95px;
+        height: 360px;
+        width: 250px;
+    }
+    .imganual{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

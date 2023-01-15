@@ -27,7 +27,9 @@ header nav ul li {
   list-style: none;
   font-weight: bold;
   display: inline-block;
-  margin: 0px 60px;
+  margin: 0px 55px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .alcentro {
@@ -116,7 +118,7 @@ footer ul li {
 .article-inicio p {
   background-color: rgba(40, 42, 58, 0.8980392157);
   color: #735F32;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 20px;
 }
 
@@ -172,10 +174,9 @@ iframe {
     flex-direction: column;
   }
   article img {
-    height: 440px;
+    height: 468px;
     width: 340px;
     position: relative;
-    left: 196px;
     margin-bottom: 20px;
   }
   .cap-container {
@@ -185,6 +186,14 @@ iframe {
   .cap-container img {
     height: 410px;
     width: 660px;
+  }
+  .imganual {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article-inicio {
+    margin: 0px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -197,7 +206,13 @@ iframe {
     width: 500px;
   }
   article img {
-    left: 95px;
+    height: 360px;
+    width: 250px;
+  }
+  .imganual {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

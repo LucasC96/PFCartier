@@ -69,7 +69,7 @@ main ul li {
     @extend .fuenteblanca;
 }
 iframe {
-    @include size(800px,500px)
+    @include size(760px,480px)
 }
 
 
@@ -170,7 +170,7 @@ iframe {
 
 //RESPONSIVE//
 
-@media only screen and (max-width: 768px){
+@media (max-width: 768px){
     header img {
         height: 95px;
         nav {
@@ -182,7 +182,7 @@ iframe {
         }
     }
     iframe {
-        @include size(660px,410px)
+        @include size(570px,380px)
     }
     .article-inicio {
         flex-direction: column;
@@ -196,10 +196,10 @@ iframe {
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(18,1fr);
         img {
-            @include size(660px,410px);
+            @include size(570px,380px);
        }
     }
-    .imganual{
+    .article-inicio p {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -211,20 +211,33 @@ iframe {
     
     
 
-@media only screen and (max-width: 576px){
+@media (max-width: 576px){
     iframe {
-        @include size(500px,310px);
+        @include size(300px,168px);
     }
     .cap-container img {
-        @include size(500px,310px);
+        @include size(300px,168px);
     }
     article img {
-        height: 360px;
-        width: 250px;
+        height: 300px;
+        width: 168px;
     }
     .imganual{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        @include size(300px,168px)
+    }
+    h1{
+        font-size: 1.3rem;
+    }
+    h2{
+        font-size: 0.9rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+        }
+    header nav {
+        font-size: 0.9rem;
     }
 }

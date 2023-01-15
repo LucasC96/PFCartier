@@ -57,8 +57,8 @@ h2 {
 }
 
 iframe {
-  height: 500px;
-  width: 800px;
+  height: 480px;
+  width: 760px;
 }
 
 footer {
@@ -155,7 +155,7 @@ iframe {
     transform: scale(1);
   }
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   header img {
     height: 95px;
   }
@@ -167,8 +167,8 @@ iframe {
     flex-direction: column;
   }
   iframe {
-    height: 410px;
-    width: 660px;
+    height: 380px;
+    width: 570px;
   }
   .article-inicio {
     flex-direction: column;
@@ -184,10 +184,10 @@ iframe {
     grid-template-rows: repeat(18, 1fr);
   }
   .cap-container img {
-    height: 410px;
-    width: 660px;
+    height: 380px;
+    width: 570px;
   }
-  .imganual {
+  .article-inicio p {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -196,23 +196,37 @@ iframe {
     margin: 0px;
   }
 }
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   iframe {
-    height: 310px;
-    width: 500px;
+    height: 168px;
+    width: 300px;
   }
   .cap-container img {
-    height: 310px;
-    width: 500px;
+    height: 168px;
+    width: 300px;
   }
   article img {
-    height: 360px;
-    width: 250px;
+    height: 300px;
+    width: 168px;
   }
   .imganual {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 168px;
+    width: 300px;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 0.9rem;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  header nav {
+    font-size: 0.9rem;
   }
 }
 

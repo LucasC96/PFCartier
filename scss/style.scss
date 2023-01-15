@@ -15,7 +15,6 @@ $marron: #735F32;
 
 
 //HEADER//
-
 header {
     background-color: $oscuro;
     position: sticky;
@@ -43,7 +42,6 @@ header {
 }
 
 //GENERAL//
-
 .alcentro{
     text-align: center;
 }
@@ -68,10 +66,12 @@ h2{
 main ul li {
     @extend .fuenteblanca;
 }
+iframe {
+    @include size(800px,500px)
+}
 
 
 //FOOTER//
-
 footer{
     width: 100%;
     background-color: $oscuro;
@@ -99,9 +99,7 @@ footer{
     color:#ff0000;
 }
 
-
 //CAPTURAS//
-
 .cap-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -117,7 +115,6 @@ footer{
 }
 
 //INDEX//
-
 .article-inicio{
     margin: 180px;
     margin-top: 0px;
@@ -134,8 +131,12 @@ footer{
     }
 }
 
-//CONTACTO//
+//POR AÑO//
+.imganual{
+    @include size(500px,300px)
+}
 
+//CONTACTO//
 .form-container{
     display: flex;
     margin: 30px;

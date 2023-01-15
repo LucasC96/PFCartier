@@ -28,7 +28,7 @@ header {
         @extend .fuenteblanca;
         background: $oscuro;
         background: radial-gradient(circle, rgba(40,42,58,1) 67%, rgba(7,7,8,1) 99%);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         padding: 1px;
     }
     nav img {
@@ -111,7 +111,7 @@ footer{
     margin-bottom: 40px;
     justify-items: center;
     img{
-        @include size(840px,500px);
+        @include size(700px,400px);
         border-radius: 5px;
     }
 }

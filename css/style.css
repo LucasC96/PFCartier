@@ -16,7 +16,7 @@ header img {
 header nav {
   background: #282A3A;
   background: radial-gradient(circle, rgb(40, 42, 58) 67%, rgb(7, 7, 8) 99%);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 1px;
 }
 header nav img {
@@ -94,8 +94,8 @@ footer ul li {
   justify-items: center;
 }
 .cap-container img {
-  height: 500px;
-  width: 840px;
+  height: 400px;
+  width: 700px;
   border-radius: 5px;
 }
 
